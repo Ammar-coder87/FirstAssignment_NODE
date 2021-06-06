@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .parent{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid blue;
+      
+      height: 100%;
+      width: 100%;
+  }
+  .container{
+    padding-bottom: 275px;
+    padding-top: 275px;
+    align-items: center;
+    
+  }
+  #fbutn{
+text-align: center;
+width: 210px;
+font-weight: bold;
+font-size: large;
+color: darkblue;
+height: 40px;
+  }
+
+  .container1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    width: 800px;
+    background-color: whitesmoke;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .fnm-lnm{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   
+   
+  }
+
+  .fnm-lnm input{
+    text-align: center;
+    background-color:rgb(174, 238, 232);
+    margin-left: 24px;
+    font-size: large;
+    height: 50px;
+    width: 244px;
+  }
+
+  .pwd-eml{
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+    padding-left: 25px;
+  }
+
+  .pwd-eml input{
+    text-align: center;
+    background-color:rgb(174, 238, 232);
+    margin-bottom: 15px;
+    font-size: large;
+    height: 50px;
+    
+  }
+
+  .title_bir{
+    padding-left: 25px;
+  }
+
+  .Birth{
+    padding-left: 25px;
+  }
+
+ 
+
+  .listBrth{
+    display: inline;
+    padding-left: 5px;
+    
+  }
+  .listBrth input{
+    width: 100px;
+    margin-left: 20px;
+    font-size: medium;
+   
+  }
+
+ 
+
+  .genderInf{
+    padding-left: 25px;
+    margin-bottom: 75px;
+  }
+
+  #fmale{
+    margin-right: 100px;
+  }
+
+  .title_gen{
+    margin-left: 25px;
+  }
+
+  .sendInf{
+    text-align: center;
+    width: 210px;
+    font-weight: bold;
+    font-size: large;
+    color: darkblue;
+    margin-left: 25px;
+    width: 500px;
+    height: 40px;
+    align-items: center;
+
+      }

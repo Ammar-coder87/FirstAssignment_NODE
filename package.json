@@ -1,0 +1,15 @@
+{
+  "name": "fassignment_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

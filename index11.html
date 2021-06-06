@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+   <form action="/information" method="POST">
+    <div class="fnm-lnm">
+     <input type="text" name="firstName" required placeholder="First Name">
+     <input type="text" name="lastName" required placeholder="Last Name"> 
+    </div>
+    <div class="pwd-eml">
+     <input type="password" name="password" required placeholder="Enter Password"> 
+     <input type="password" name="Repassword" required placeholder="Rewrite Password">
+     <input type="email" name="email" required placeholder="Email"> 
+    </div>  
+   
+
+
+
+    <h4 class="title_bir">Birthday</h4>
+    <div class="listBrth">
+    <input class="details" list="Month" name="Month"  required placeholder="Month">
+    <input class="details" list="Day" name="Day" required placeholder="Day">
+    <input class="details" list="Year" name="Year" required placeholder="Year">
+</div>
+
+
+    <datalist id="Month">
+        <option value="Jan"></option>
+    </datalist>
+    <datalist id="Day">
+        <option value="1"></option>
+    </datalist>
+    <datalist id="Year">
+        <option value="1987"></option>
+    </datalist>
+
+
+
+    <h4 class="title_gen">Gender</h4>
+    <div class="genderInf">
+    <input type="radio" id="female" name="Gender" value="Female" required>
+    <label id="fmale" for="female">Female</label>
+    <input type="radio" id="male" name="Gender" value="Male" required>
+    <label for="male">Male</label>
+</div>
+
+<div class="sending">
+    <button type="submit" class="sendInf">Send</button>
+</div>
+</div>
+</form>
+</body>
+</html>
